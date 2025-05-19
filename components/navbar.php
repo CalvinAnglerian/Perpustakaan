@@ -10,8 +10,12 @@ class Navbar
 
     public function __construct($activeName)
     {
-        $basePath = "http://localhost/jefli/Perpustakaan";
+        $basePath = "http://localhost/perpustakaan";
         $this->menu = [
+            [
+                "label" => "home",
+                "url" => $basePath . "/index.php",
+            ],
             [
                 "label" => "bahasa",
                 "url" => $basePath . "/bahasa/index.php",
