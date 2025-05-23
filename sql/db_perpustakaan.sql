@@ -64,7 +64,7 @@ CREATE TABLE `tb_bahasa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `tb_bahasa`
+--- Dumping data untuk tabel `tb_bahasa`
 --
 
 INSERT INTO `tb_bahasa` (`ID_Bahasa`, `Nama_Bahasa`, `Created_At`, `Status`) VALUES
